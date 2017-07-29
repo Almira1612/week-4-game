@@ -1,0 +1,65 @@
+body {
+	background-image: url("../../assets/images/vectorstock_787267.jpg" ); 
+	
+	background-repeat: repeat;
+	background-attachment: absolute ; 
+	background-size: 50%;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.page-header{
+	margin-top: 10px;
+	width: 320px;
+	background-color: #742730;
+	color: white;
+    padding: 12px;
+}
+.row{
+	margin-top: 6px;
+}
+.col-xs-12.col-sm-8.col-md-6{
+	background-color: #e0c09d;
+
+}
+.col-xs-6.col-sm-4.col-md-3{
+	background-color: #abe0e7;
+	
+	height: 80px;
+}
+.col-xs-6.col-sm-4.col-md-1{
+	background-color: #76b2d5;
+	width: 150px;
+	height: 80px;
+	padding: 10px;
+}
+.crystals {
+	margin-top: 6px;
+}
+#blue{
+	height: 80px; 
+	width: 80px;}
+#green{
+	height: 80px; 
+	width: 80px;}
+#white{
+	height: 80px; 
+	width: 80px;}
+#red{
+	height: 80px; 
+	width: 80px;}
+.col-xs-7.col-sm-4.col-md-3{
+	height: 30px;
+	background-color: #e3e960;}
+footer {
+  margin-top: 100px;
+  clear: both;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  
+ }

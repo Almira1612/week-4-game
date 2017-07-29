@@ -10,11 +10,59 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
+<div class="container">
+<div class="page-header" >
+   <h1> CrystalsCollector!</h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-md-6">
+  	<p>You will be given a random number at the start of the game.</p>
+  	<p>There are four crystals below. By checking on a crystal you will add a specific amount of points to your total score.</p>
+  	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+  	<p>The value of each crystal is hidden from you until you click on it.</p>
+  	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+</div>
+  <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3">
+     <span id="random"></span>
+    </div>
+  <div class="col-xs-6 col-sm-4 col-md-1">
+    <p><strong>Wins:</strong><span id="wins"></span></p>
+    <p><strong>Losses:</strong><span id="losses"></span></p>
+  </div>
+  </div>
+ <div class="crystals">
+ <img id="blue" src="./assets/images/blue.png" alt="blue" class="img-thumbnail" >
+ <img id="green" src="./assets/images/green.png" alt="green" class="img-thumbnail">
+ <img id="white" src="./assets/images/white.png" alt="white" class="img-thumbnail" >
+ <img id="red" src="./assets/images/red.png" alt="red" class="img-thumbnail" >
+ </div>
+ 
+ <div class="row">
+    <div class="col-xs-7 col-sm-4 col-md-3">
+    <P>You total score is:</P>
+    </div>
+  </div>
+ <div class="row">
+ 
+     <div class="col-xs-7 col-sm-4 col-md-3" style="height: 130px;">
+     <span id="total"></span>
+     </div>
+   
+  </div>
+
+<footer>
+      <p>&copy; 2017 Aimila Maimaitijiang </p>
+ 
+</footer>
+<meta name="viewport" content="width=device-width">
 
 </body>
 </html>
